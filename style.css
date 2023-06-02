@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f3f3f3;
+}
+header{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+}
+main{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;  
+}
+/*section{
+    width: 40%;
+    height: 100%;
+}*/
+.seccion1{
+    width: 70%;
+}
+.textarea{
+    width: 80%;
+    height: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    resize: none;
+    font-size: 25px;
+    border: none;
+    border-radius: 9px;
+    font-family: "Inter";
+    font-size: 40px;
+}
+.terminos{
+    font-family: "Inter";
+    font-size: 22px;
+    color: gray;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.btn-encriptar{
+    background: #0a3871;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.btn-desencriptar{
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.btn-encriptar, .btn-desencriptar{
+    width: 25%;
+    height: 50px;
+    gap: 8px;
+    padding: 2px;
+    border-radius: 8px;
+    font-family: "Inter";
+    font-size: 18px;
+    line-height: 19px;
+}
+.contenedor-botones{
+   text-align: center;
+   margin-top: 30px;
+}
+.seccion2{
+    height: 90%;
+    width: 25%;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-right: 40px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.contenedor-muneco{
+    width: 100%;
+    height: 60%;
+    padding-top: 150px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.contenedor-h3{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 25px;
+}
+.contenedor-parrafo{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 18px;
+}
+.contenedor-resultado{
+    width: 100%;
+    height: 70%;
+    padding: 25px;
+    box-sizing: border-box;
+    font-family: "Inter";
+    font-size: 35px;
+    color: #0a3871;
+}
+.texto-final{
+    font-family: "Inter";
+    font-size: 25px;
+    color: black;
+}
+.contenedor-copiar{
+    width: 100%;
+    height: 20%;
+}
+.btn-copiar{
+    width: 60%;
+    height: 40px;
+    border-radius: 9px;
+    display: block;
+    margin:auto;
+    margin-top: 140px;
+    cursor: pointer;
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.ocultar{
+    display: none;
+}
+
